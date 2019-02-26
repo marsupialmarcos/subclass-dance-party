@@ -5,7 +5,7 @@ describe('blinkyDancer', function() {
 
   beforeEach(function() {
     clock = sinon.useFakeTimers();
-    blinkyDancer = makeBlinkyDancer(10, 20, timeBetweenSteps);
+    blinkyDancer = new BlinkyDancer(10, 20, timeBetweenSteps);
   });
 
   it('should have a jQuery $node object', function() {
@@ -32,3 +32,21 @@ describe('blinkyDancer', function() {
     });
   });
 });
+
+
+/*
+
+blinkyDancer = new makeBlinkyDancer(10, 20, 100)
+  //calls Dancer with new object being 'this'
+  //blinkyDancer - {top:10,
+                     left:20,
+                      timeBetweenSteps: 100,
+                      $node: $('<span class="dancer"></span>');
+                      }
+
+                      // run step
+                      // run setposition
+
+
+
+*/
