@@ -82,7 +82,7 @@ The next version of JavaScript, implemented from the EMCAScript 6 specification,
 
 One exciting feature is the inclusion of a class keyword! This is a big change for engineers who write object-oriented code because it makes JavaScript look and feel more like a traditional class based language even though it's really just syntactic sugar on top of the pseudoclassical instantiation pattern you are familiar with. ES6 makes subclassing much easier as well with the introduction of the extends keyword.
 
-***Your goal is to refactor any classes you've written to use this new syntax!***
+**Your goal is to refactor any classes you've written to use this new syntax!**
 
 * Visit *chrome://help* in Chrome and ensure that you are using version 49 or above. Once you're up to date with the latest version, Chrome will accept and run many new ES6 features, including classes
 * Visit the [ES6 compatibility table](https://2ality.com/2015/02/es6-scoping.html) and look at the "Current browser" column if you're curious what other features you unlocked
@@ -103,7 +103,7 @@ Finish the refactor? Way to go! Here are some more challenges for you. Feel free
 * Allow users of the the site create their own dancers on the fly by picking dancing behaviors from a list and uploading their own dancer image
 * Implement a particle system
 
-***Relevant Documentation:***
+**Relevant Documentation:**
 
 [jQuery](https://api.jquery.com/) is a library used extensively in this project to easily create and modify HTML DOM nodes in the web page.
 
